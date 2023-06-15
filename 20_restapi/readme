@@ -1,0 +1,15 @@
+Diana Akhmedova
+SoftDev
+K20 -- A RESTful Journey Skyward
+2022-11-22
+time spent: 0.5 hrs
+
+DISCO:
+ * readlines() returns a list that contains each line in the file as a separate list item.
+ * requests.get() allows you to make a request to a webpage; it sends a GET request to the url.
+ * json.loads() allows you to read a json file like a dictionary; parses a JSON string and converts it into a Python dictionary.
+
+QCC:
+ * Is there a way to read the fields of the JSON file?
+
+(Notes borrowed and added onto with permission from Jumping Seals (James Yu and Samantha Hua) due to absence.)

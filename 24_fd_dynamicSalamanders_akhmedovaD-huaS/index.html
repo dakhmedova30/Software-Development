@@ -1,0 +1,101 @@
+<!--
+Dynamic Salamanders: Diana Akhmedova and Samantha Hua
+SoftDev
+K24 -- Mmmmm... Tasty! -- experimenting with Foundation
+2022-11-30
+time spent: 1.5 hrs
+-->
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>ducky drama...</title>
+
+        <!-- Compressed CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/motion-ui/1.2.2/motion-ui.min.css">
+
+        <!-- Compressed JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/js/foundation.min.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <script>
+            $(document).foundation();
+        </script>
+        <div class="top-bar">
+            <div class="top-bar-left">
+              <ul class="dropdown menu" data-dropdown-menu>
+                <li class="menu-text">Ducky Drama</li>
+                <li><a href="#images">Images</a></li>
+                <li><a href="#ajax">Ajax</a></li>
+                <li><a href="#ajaxTheSecond">Ajax the Second</a></li>
+                <li><a href="#tim">Tim</a></li>
+              </ul>
+            </div>
+        </div>
+
+        <h1>Dynamic Salamanders: Diana Akhmedova and Samantha Hua</h1>
+
+        <div id="images" style="display:grid; gap: 5%; grid-auto-flow: column; margin:5%;">
+            <div class="card">
+                <div class="card-divider">
+                    Diana's First Duckie
+                </div>
+                <img src="assets/ajax.jpg">
+                <div class="card-section">
+                    <h4>Ajax</h4>
+                    <p>They are in love with Tim.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-divider">
+                    Diana's Second Duckie
+                </div>
+                <img src="assets/ajaxSecond.jpg">
+                <div class="card-section">
+                    <h4>Ajax The Second</h4>
+                    <p>They are NOT related to Ajax. They are in love with Tim.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-divider">
+                    Samantha's Duckie
+                </div>
+                <img src="assets/tim.jpg">
+                <div class="card-section">
+                    <h4>Tim</h4>
+                    <p>They are minding their own business and have absoutely no feelings for anyone.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- ajax -->
+        <div style="margin: 5%">
+            <h3 id="ajax">Ajax</h3>
+            <p> Ajax has always been in love with Tim. But they have never been able to express their feelings because they want to be a good role model for <a href="#ajaxTheSecond">Ajax The Second</a>. How could Ajax fall for someone who wasn't their own species! If word got out Ajax was crushing on a DUCK, it would be over. It would be even worse than getting cancelled. They would be condemmed. </p>
+            <p>To make matters worse, Ajax was entrusted with the power of being the namesake for Ajax The Second! Oh the responsibility! Ajax The Second has always looked up to Ajax and has followed their every move. It was all too much to give up for a mere duck.</p>
+            <p> Ajax has had to live with the shame of being in love with a non-narwhal. Send your well wishes. Every day is a battle.</p>
+        </div>
+
+        <!-- ajax the second -->
+        <div style="margin: 5%">
+            <h3 id="ajaxTheSecond">Ajax The Second</h3>
+            <p>Ajax The Second is in love with Tim but knows that Ajax is also in love with Tim. mama mia. They have always grown in the shadow of Ajax. All of their accomplishments, passions, and joys in life are in comparison to Ajax. They condemn their parents for naming them a second. Who wants to be second???? The famed Abby Lee Miller has always said "Second is the first to lose." deep sigh. life is tough as a second but it's even harder when you're in love with the same person as the first</p>
+
+            <p>Objectively, Tim is hot. I mean look at that beak. c'mon. Ajax and Ajax The Second both see the truth but are afraid to accept it. Ajax The Second knows that ole Ajax is head over heels for tim. It's obvious in the way they talk to them and let's not get started on the way they start twirling their horn when Tim is around. Ajax The Second knows it is scandolous to love a duck but that does not stop them from loving a duck. Their only consolation is that if they can't be with Tim, at least Ajax can't either.</p>
+
+            <p> wise old teddy roosevelt said "comparison is the thief of joy" and boy does Ajax The Second know that more than anyone. But if Ajax The Second can't be happy (because of course, there is no happiness without Tim) then Ajax shouldn't be able to be happy either.  </p>
+        </div>
+
+        <!-- tim -->
+        <div style="margin: 5%">
+            <h3 id="tim">Tim</h3>
+            <p>Tim is carefree. Tim does not care about anything. Tim does not have feelings for anyone. They just la-di-da all day long. Tim suspects that there may be some crazy business going on between Ajax and Ajax The Second. But he's too lazy and self-content to care. If there's drama, there's drama. If there isn't, there isn't. Tim loves Tim and that's all that matters. Self-love y'all. </p>
+        </div>
+
+    </body>
+
+</html>

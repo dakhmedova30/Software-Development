@@ -1,0 +1,29 @@
+Dynamic Salamanders: Diana Akhmedova and Samantha Hua
+SoftDev
+K24 -- Mmmmm... Tasty! -- experimenting with Foundation
+2022-11-30
+time spent: 1.5 hrs
+
+DISCO:
+ * Cards allow us to display an image with a header, title, and a description. We used this to introduce our duckies.
+ * From what we understand,we need to include ```<script>$(document).foundation();</script>``` in the body in order to use Foundation. 
+ * Writing duckie fan fic is so fun!
+
+QCC:
+ * Half the time our Foundation didn't load correctly? We checked the documentation on how to link our files with the cdn and we followed those instructions but still it didn't work. We also checked other people's repos and copied their linking and it still didn't work. It was very frustrating and we very much prefer Bootstrap over Foundation.
+ * Foundation documentation is not nearly as good as the Bootstrap documentation imo.
+ * We found two separate types of nav bars? One was supposed to be collapsable but there was nothing to collapse? The team we swapped with used this feature but we didn't like the way it looked like one nav bar on top of another.
+
+q0
+ * 1
+
+q0b:
+ * Cards: https://get.foundation/sites/docs/card.html
+ * Orbit/Image Carousel: https://get.foundation/sites/docs/orbit.html
+ * William V. and Anthony S. index.html -- had many great examples of Foundation features
+ * BLT: Brianna Tieu and Lauren Lee -- referenced their index.html for linking
+
+q1:
+ * We prefer Bootstrap over Foundation. Firstly, Bootstrap has a more user-friendly API, which is easy to follow and shows all necessary steps needed to implement each function. Foundation's API was harder for us to follow and navigate.
+ * Secondly, we faced issues with using Foundation's drop-down menu and orbit image carousel. This was frustrating because there were no workarounds that we could find to remedy this issue and the site lacked in direction for these situations.
+ * Lastly, we like how Bootstrap has a wide variety of features. On the other hand, Foundation did not seem to have as much customization.

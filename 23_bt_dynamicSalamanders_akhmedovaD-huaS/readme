@@ -1,0 +1,16 @@
+Dynamic Salamanders: Diana Akhmedova and Samantha Hua
+SoftDev
+K23 -- A Day of Noodling -- Exploring Bootstrap
+2022-11-28
+time spent: 1.5 hrs
+
+DISCO:
+ * Experimenting with the code was really helpful in understanding what parts did what. Commenting out certain lines made the effect of the code more apparent.
+ * We used the device resizing aspect of the dev console A LOT. It helped us to understand the different breakpoints and the way our website responded to different sized screens.
+ * There are some default colors within Bootstrap that we'd imagine are super helpful. Having a built-in color scheme would streamline the process of developing a website
+
+QCC:
+ * We added comments throughout our HTML file outlining the specific effects of each Bootstrap command/element.
+ * A lot of the Bootstrap commands we found would have jazzed up our K00. There were many aspects that felt relevant.
+ * We weren't sure what the role of the placeholder was. We think that it is used if the user inputs nothing and submits the form, but the placeholder doesn't display on the text field.
+ * navbar-collapse allows the user to move the navbar out of sight whenever they are not at the top of the page. We don't know what collapse does that navbar-collapse doesn't.
